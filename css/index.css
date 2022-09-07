@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+    font-family: renner;
+    src: url(../fonts/Renner_\ 400\ Book.ttf);
+}
+*{
+    font-family: renner;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.links {
+    display: flex;
+    gap: 35px;
+    text-decoration: none;
+    list-style: none;
+}
+.links a {
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+.brand {
+    font-size: 60px;
+    font-weight: bolder;
+    letter-spacing: 15px;
+    margin-top: none;
+    font-stretch: expanded;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.rnav {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 14px;
+}
+.logo i {
+    margin-right: 4px;
+    
+    
+}
+.rnav h3 {
+    font-style: italic;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkgrey;
+}
+.logo {
+    display: flex;
+    gap: 40px;
+}
+.logo span {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.s2 {
+    align-items: center;
+    width: full;
+    height: 40px;
+    background-image: linear-gradient(to right,rgb(245, 207, 214),rgb(255, 245, 245));
+    justify-content: space-evenly;
+}
+.strip {
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    margin-top: 1px;
+    border-top: 1px solid black;
+    text-decoration: none;
+    font-family: poppins;
+}
+.strip li {
+    margin-top: 7px;
+}
+.strip li a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    
+}
+.s3i {
+    width: 1100px;
+    height: auto;
+    justify-content: space-evenly;
+}
+.s3o {
+    height: 401px;
+    width: auto;
+    align-content: flex-end;
+    margin-right: 20px;
+    justify-content: space-evenly;
+}
